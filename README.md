@@ -1,3 +1,5 @@
+# 下面的程序是在保持图片本身大小下将图片四周填充白边以组合成特定长宽比的图片
+# 完整代码在txt文件中
 
 import os
 from PIL import Image
