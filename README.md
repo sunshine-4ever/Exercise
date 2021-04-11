@@ -35,9 +35,9 @@ def Combine(sig_path):
 path='C:/Users/acer/Desktop/2007'
 
 
-# 创建整理后的图片位置文件夹
+#创建整理后的图片位置文件夹
 os.makedirs(path+'/new')
-# 获得图片文件夹内每张图片，循环依次处理
+#获得图片文件夹内每张图片，循环依次处理
 names=os.listdir(path)
 for item in names:
     # 获得图片路径并调用处理函数合成图片
